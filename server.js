@@ -8,11 +8,9 @@ const PORT = process.env.PORT || 3001;
 
 const app = express();
 
-// middleware data for jsons
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// middleware setup
 app.use(express.static("public"));
 
 //post request
@@ -35,7 +33,6 @@ app.delete("/api/notes/:id", (req, res) => {
     if (err) throw err;
     let notes = JSON.parse(data);
     const newNotes = notes.filter((note) => note.id !== req.params.id);
-
     fs.writeFile("./db/db.json", JSON.stringify(newNotes), (err, data) => {
       res.json({ msg: "successful" });
     });
