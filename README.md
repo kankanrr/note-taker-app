@@ -12,7 +12,7 @@ To Run Locally -
 
 To Run via Heroku -
 
-> Click the herkou link:
+> Click the herkou link: https://svg-logo-generaor-9596efaa780e.herokuapp.com/
 
 ## Usage
 
