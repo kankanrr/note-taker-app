@@ -12,7 +12,7 @@ To Run Locally -
 
 To Run via Heroku -
 
-> Click the herkou link: https://svg-logo-generaor-9596efaa780e.herokuapp.com/
+> Click the herkou link: https://note-taker-list-app-915f9ff291f2.herokuapp.com/
 
 ## Usage
 
